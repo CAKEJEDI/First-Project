@@ -1,0 +1,40 @@
+footer{
+
+        padding: 6rem 0;
+        ul{
+            list-style: none;
+            line-height: 2rem;
+            li{
+                a{
+                    text-decoration: none;
+                    color: black;
+                    border-bottom: 3px solid rgba(128, 128, 128, 0.374);
+                    padding: 4px 0;
+                    font-size: 14px;
+                    font-weight: 500;
+                    
+                }
+            }
+            li:first-child{
+                a{
+                    font-size: 15px;
+                    font-weight: bold;
+                    border: none;
+                }
+            }
+        }
+        .end-footer{
+            span{
+                color: #5a5d60;
+                font-size: 13px;
+            }
+            a{
+            text-decoration: none;
+            color: #5a5d60;
+            border-bottom: 3px solid rgba(128, 128, 128, 0.374);
+            padding: 4px 0;
+            font-size: 13px;
+
+        }
+        }
+}

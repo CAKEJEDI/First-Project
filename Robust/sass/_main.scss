@@ -1,0 +1,125 @@
+main {
+    .py-7 {
+        padding: 6rem 0;
+
+        .row-first {
+            h2 {
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: 400;
+            }
+        }
+
+        .row-second {
+            h5 {
+                font-family: sans-serif;
+                font-weight: 700;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+
+            }
+
+            .shadow-sm {
+                border-radius: .35rem;
+                border: 1px solid rgba(0, 0, 0, .1);
+                box-shadow: .35rem .35rem 0 0 rgba(0, 0, 0, .1) !important;
+                transition: transform .2s, box-shadow .2s;
+            }
+
+            .shadow-sm:hover {
+                transform: translate(-.2rem, -.2rem);
+            }
+        }
+
+    }
+    .pt-7{
+        padding-top: 7rem;
+    }
+    .row-third{
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+         h3{
+            font-family: sans-serif;
+            font-weight: 700;
+         }
+         p{
+            font-family: sans-serif;
+         }
+    }
+    .row-fourth{
+        .important{
+            display: flex;
+            align-items: flex-start;
+             h3{
+                font-weight: 700;
+                font-family: sans-serif;
+             }
+             p{
+                font-family: sans-serif;
+             }
+            
+        }
+        .bg-i-rf{
+            padding:1rem;
+            border-radius: 8px;
+            background-color: #1283da;
+            i{
+                color: white;
+            }
+            svg{
+                color: white;
+                font-size: 25px;
+            }
+        }
+    }
+    .bg-primary{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: #1283da !important;
+        .w-62   {
+            width: 62% ;
+        }
+        p{
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+        }
+        span{
+            color: white;
+            font-weight: 400;
+        }
+        .image-circle{
+            max-height: 100px;
+            max-width: 100px;
+        }
+        .impo{
+            display: flex;
+        }
+    }
+    .flickity-page-dots .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+        background: #ffffff;
+        border-radius: 50%;
+        opacity: .25;
+        cursor: pointer;
+      }
+      .row-images{
+        img{
+        max-width: 80px;
+        height: auto;
+    }
+      }
+}
